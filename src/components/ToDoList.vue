@@ -1,10 +1,8 @@
 <template>
   <div>
-    <ul>
-        <li> Todo A </li> 
-        <li> Todo B </li> 
-        <li> Todo C </li> 
-    </ul> 
+    <center>
+        My List :D
+    </center>
   </div>
 </template>
 

@@ -3,13 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import HeaderComponent from '@/components/header'
+import FooterComponent from '@/components/footer'
 
 Vue.config.productionTip = false
 
+Vue.component('header-component', HeaderComponent);
+Vue.component('footer-component', FooterComponent);
+
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    components: { 
+        App,
+    },
+    template: '<App/>'
 })

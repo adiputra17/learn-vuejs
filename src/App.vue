@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <header-component></header-component>
     <img src="./assets/logo.png">
     <router-view/>
+    <footer-component></footer-component>
   </div>
 </template>
 
