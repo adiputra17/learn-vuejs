@@ -4,7 +4,7 @@ export default {
   props: [],
   data () {
     return {
-
+        data : 'ini adalah contoh data saya'
     }
   },
   computed: {
